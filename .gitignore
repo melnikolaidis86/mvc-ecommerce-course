@@ -1,0 +1,4 @@
+#Ignore vendor files
+composer.phar
+/vendor/
+/.idea/
