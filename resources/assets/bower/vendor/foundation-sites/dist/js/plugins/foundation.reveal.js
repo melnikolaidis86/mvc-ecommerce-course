@@ -693,21 +693,21 @@ Reveal.defaults = {
    */
   hOffset: 'auto',
   /**
-   * Allows the modal to be fullscreen, completely blocking out the rest of the view. JS checks for this as well.
+   * Allows the modal to be fullscreen, completely blocking out the rest of the views. JS checks for this as well.
    * @option
    * @type {boolean}
    * @default false
    */
   fullScreen: false,
   /**
-   * Percentage of screen height the modal should push up from the bottom of the view.
+   * Percentage of screen height the modal should push up from the bottom of the views.
    * @option
    * @type {number}
    * @default 10
    */
   btmOffsetPct: 10,
   /**
-   * Allows the modal to generate an overlay div, which will cover the view when modal opens.
+   * Allows the modal to generate an overlay div, which will cover the views when modal opens.
    * @option
    * @type {boolean}
    * @default true
