@@ -7,9 +7,8 @@
 
 $router = new AltoRouter();
 
-$router->setBasePath('/ecommerce/public');
-
 $router->map('GET', '/', 'App\Controllers\IndexController@show', 'home');
 
-
+//For admin routes
+$router->map('GET', '/admin', 'App\Controllers\Admin\DashboardController@show', 'admin_dashboard');
 
