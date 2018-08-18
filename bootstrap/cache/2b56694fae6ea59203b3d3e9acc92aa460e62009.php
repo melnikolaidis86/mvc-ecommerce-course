@@ -7,25 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/css/all.css">
+    <script src="https://use.fontawesome.com/6eaf2bae4f.js"></script>
 </head>
 <body>
 
-<div class="off-canvas position-left reveal-for-large" id="offCanvas" data-off-canvas>
+    <?php echo $__env->make('includes.admin-sidebar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
-    <!-- Side bar -->
-    <ul class="vertical menu">
-        <li><a href="#">Foundation</a></li>
-        <li><a href="#">Dot</a></li>
-        <li><a href="#">ZURB</a></li>
-        <li><a href="#">Com</a></li>
-        <li><a href="#">Slash</a></li>
-        <li><a href="#">Sites</a></li>
-    </ul>
-
-</div>
-
-<div class="off-canvas-content" data-off-canvas-content>
+<div class="off-canvas-content admin-title-bar" data-off-canvas-content>
     <!-- Your page content lives here -->
+    <div class="title-bar">
+        <div class="title-bar-left">
+            <button class="menu-icon hide-for-large" type="button" data-open="offCanvas"></button>
+            <span class="title-bar-title"><?php echo e(getenv('APP_NAME')); ?></span>
+        </div>
+    </div>
 
     <?php echo $__env->yieldContent('content'); ?>
 </div>
