@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b288028f-5f2f-45a8-b56a-ccaa75ceff6e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/classes/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/classes/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/classes/Mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/classes/Mail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/functions/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions/helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routing/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap/cache/a9aaa84cbeec9a573dd0025c2ba3d923ff2f45e9.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/a9aaa84cbeec9a573dd0025c2ba3d923ff2f45e9.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,51 +25,58 @@
     <session id="2082859076">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="4984" />
+          <entry key="scss" value="21" />
+          <entry key="txt" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Blade" value="1253" />
+          <entry key="PHP" value="3731" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="SCSS" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="bowerrc" value="1" />
+          <entry key="php" value="13" />
+          <entry key="scss" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Blade" value="2" />
+          <entry key="JSON" value="1" />
+          <entry key="PHP" value="11" />
+          <entry key="SCSS" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.php.new.test" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.php.composer.actions" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/classes/CSRSFToken.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/admin/DashboardController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/dashboard.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-              <folding>
-                <marker date="1534770491028" expanded="true" signature="9:28" ph="..." />
-                <marker date="1534770491028" expanded="true" signature="40:59" ph="..." />
-                <marker date="1534770491028" expanded="true" signature="71:80" ph="..." />
-                <marker date="1534770491028" expanded="true" signature="190:223" ph="..." />
-                <marker date="1534770491028" expanded="true" signature="258:292" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -92,7 +102,6 @@
         <option value="$PROJECT_DIR$/app/controllers/BaseController.php" />
         <option value="$PROJECT_DIR$/app/routing/RouteDispatcher.php" />
         <option value="$PROJECT_DIR$/resources/views/errors/404.blade.php" />
-        <option value="$PROJECT_DIR$/app/functions/helper.php" />
         <option value="$PROJECT_DIR$/resources/views/emails/welcome.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/resources/views/errors/generic.blade.php" />
@@ -101,21 +110,29 @@
         <option value="$PROJECT_DIR$/bootstrap/init.php" />
         <option value="$PROJECT_DIR$/app/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/routing/routes.php" />
         <option value="$PROJECT_DIR$/resources/assets/css/app.css" />
         <option value="$PROJECT_DIR$/resources/assets/js/init.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/resources/assets/sass/app.scss" />
         <option value="$PROJECT_DIR$/resources/views/includes/admin-sidebar.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/layout/base.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/sass/admin/_nav.scss" />
         <option value="$PROJECT_DIR$/app/classes/Database.php" />
         <option value="$PROJECT_DIR$/app/classes/Mail.php" />
         <option value="$PROJECT_DIR$/app/classes/Session.php" />
-        <option value="$PROJECT_DIR$/app/controllers/admin/DashboardController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" />
         <option value="$PROJECT_DIR$/app/classes/CSRSFToken.php" />
+        <option value="$PROJECT_DIR$/app/classes/Redirect.php" />
+        <option value="$PROJECT_DIR$/app/classes/UploadFile.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/DashboardController.php" />
+        <option value="$PROJECT_DIR$/app/classes/Request.php" />
+        <option value="$PROJECT_DIR$/app/routing/routes.php" />
+        <option value="$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/foundation.scss" />
+        <option value="$PROJECT_DIR$/resources/assets/sass/app.scss" />
+        <option value="$PROJECT_DIR$/resources/views/admin/products/categories.blade.php" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/ProductCategoryController.php" />
+        <option value="$PROJECT_DIR$/app/functions/helper.php" />
+        <option value="$PROJECT_DIR$/app/models/Category.php" />
       </list>
     </option>
   </component>
@@ -170,7 +187,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="978" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -186,7 +203,7 @@
           <expand>
             <path>
               <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,10 +213,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
@@ -246,6 +263,8 @@
       <workItem from="1534767699370" duration="3116000" />
       <workItem from="1534771231813" duration="43000" />
       <workItem from="1534771342176" duration="58000" />
+      <workItem from="1534771462851" duration="605000" />
+      <workItem from="1534776144511" duration="12999000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring index file">
       <created>1530738388679</created>
@@ -258,12 +277,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34275000" />
+    <option name="totallyTimeSpent" value="47879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20671141" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20939597" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -275,7 +294,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22377622" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22286542" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3295325" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -298,44 +317,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Refactoring index file" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/assets/bower/vendor/jquery/dist/jquery.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.bowerrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routing/RouteDispatcher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -384,13 +365,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routing/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -428,13 +402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -530,31 +497,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/functions/helper.php">
+    <entry file="file://$PROJECT_DIR$/app/classes/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        <state relative-caret-position="73">
+          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/dashboard.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/classes/UploadFile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <marker date="1534770491028" expanded="true" signature="9:28" ph="..." />
-            <marker date="1534770491028" expanded="true" signature="40:59" ph="..." />
-            <marker date="1534770491028" expanded="true" signature="71:80" ph="..." />
-            <marker date="1534770491028" expanded="true" signature="190:223" ph="..." />
-            <marker date="1534770491028" expanded="true" signature="258:292" ph="..." />
-          </folding>
+        <state relative-caret-position="1407">
+          <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/DashboardController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="418">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding>
+            <element signature="e#114#138#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/classes/Redirect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -562,6 +532,105 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5371" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/grid/_classes.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/settings/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12282" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/assets/foundation.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/assets/foundation-prototype.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/assets/foundation-rtl.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/assets/foundation-float.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/bower/vendor/foundation-sites/scss/foundation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routing/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <marker date="1534779429593" expanded="true" signature="9:28" ph="..." />
+            <marker date="1534779429593" expanded="true" signature="40:59" ph="..." />
+            <marker date="1534779429593" expanded="true" signature="71:80" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/products/categories.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="e#101#140#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/functions/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/ProductCategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="31" column="61" lean-forward="true" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+          <folding>
+            <element signature="e#113#140#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

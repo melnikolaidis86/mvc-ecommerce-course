@@ -4,10 +4,13 @@
     <div class="dashboard">
         <div class="row expanded">
             <h2>Dashboard</h2>
-            <?php echo e(\App\Classes\CSRSFToken::_token()); ?>
+            <form action="/admin" method="post" enctype="multipart/form-data">
+                <input name="product" type="text" value="testing">
+                <input type="file" name="image">
+                <input type="submit" value="Go" name="submit">
+            </form>
 
-            <br/>
-            <?php echo e(\App\Classes\Session::get('token')); ?>
+            <?php echo e(\App\Classes\Request::all()); ?>
 
         </div>
     </div>
