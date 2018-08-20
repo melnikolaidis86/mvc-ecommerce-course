@@ -6,6 +6,7 @@
  */
 
 namespace App\Classes;
+
 use PHPMailer\PHPMailer\PHPMailer;
 
 class Mail

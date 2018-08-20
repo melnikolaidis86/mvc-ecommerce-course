@@ -4,6 +4,11 @@
     <div class="dashboard">
         <div class="row expanded">
             <h2>Dashboard</h2>
+            <?php echo e(\App\Classes\CSRSFToken::_token()); ?>
+
+            <br/>
+            <?php echo e(\App\Classes\Session::get('token')); ?>
+
         </div>
     </div>
 <?php $__env->stopSection(); ?>
